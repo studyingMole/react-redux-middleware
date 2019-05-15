@@ -1,7 +1,7 @@
 export default function({ dispatch }) {
   return next => action => {
-    // if the action does not have a payloa
-    // or, the payload does not have a .tehn property
+    // if the action does not have a payload
+    // or, the payload does not have a .then property
     // we don't cxare about it, send it on
     if (!action.payload || !action.payload.then) {
       return next(action);

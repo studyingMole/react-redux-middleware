@@ -3,7 +3,7 @@
 ## Getting Started
 
 ```shell
-> git clone https://github.com/studyingMole/react-redux-middleware.git
+> git clone https://github.com/CodeSchwert/react-redux-middleware.git
 > cd react-redux-middleware
 > npm install
 > npm start
